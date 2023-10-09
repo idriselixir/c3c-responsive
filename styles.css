@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.firstSection {
+  min-height: 80vh;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  color: aliceblue;
+  align-items: center;
+  height: 50%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-items: center;
+  gap: 10px;
+}
+.clarity {
+  font-family: "Montserrat", sans-serif;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.language {
+  gap: 10px;
+  display: flex;
+}
+.joinButton1 {
+  border-radius: 36px;
+  border: 2px solid #06cd98;
+  color: #06cd98;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  background-color: #000;
+  width: 135px;
+  height: 56px;
+}
+.content {
+  background: #000;
+  opacity: 90.1%;
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  min-height: 400px;
+}
+.live {
+  color: #06cd98;
+  font-size: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.life {
+  color: aliceblue;
+  font-size: 90px;
+}
+.joinnn {
+  color: white;
+  border-radius: 9999px;
+  border: 2px solid #06cd98;
+  background: #06cd98;
+  width: 126px;
+  height: 56px;
+}
+.secondSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.shoppingText {
+  background-color: #06cd98;
+  display: flex;
+  width: 100%;
+  padding: 96px 110.5px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 96px;
+}
+.largeText {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px; /* 110.345% */
+  letter-spacing: -0.64px;
+  padding: 60px;
+  width: 395px;
+  height: 192px;
+}
+.smallText {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 147.368% */
+  width: 398px;
+  height: 168px;
+}
+.lefty {
+  display: flex;
+  padding: 20px 187px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+.joinButton2 {
+  display: flex;
+  padding: 18px 45px;
+  align-items: flex-start;
+  border-radius: 9999px;
+  border: 2px solid #fff;
+  background-color: #06cd98;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.thirdSection {
+  width: 100%;
+}
+.earns {
+  display: flex;
+  width: 100%;
+  height: 1225px;
+  padding: 122.4px 58.13px 0px 64px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+  background-color: #000;
+}
+.header1 {
+  width: 100%;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 96px */
+  display: flex;
+  justify-content: space-between;
+}
+.points {
+  color: #06cd98;
+}
+.button2 {
+  display: flex;
+  padding: 18px 45px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 9999px;
+  border: 2px solid #06cd98;
+  background: #06cd98;
+  height: 50px;
+}
+.subject {
+  width: 100%;
+  height: 855.95px;
+  flex-shrink: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.number {
+  display: inline-flex;
+  height: 855.95px;
+  padding: 299.92px 0px 428.03px 0px;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 360px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128px; /* 41.694% */
+  letter-spacing: -0.16px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/80f7/da02/388c5435bff1a4a2b962be0509d776eb?Expires=1696809600&Signature=G3yUyCADog1OMO-BkQNviMGeFKuaBvjZW~hZQRXETDDJ3vns2pbqTTaOrMX3dWuk7MSQQh~1supF~rMP6u56wJ-iX~yC9axw83gyjae1S2sYJ8m8-3Snx3P2edapzO4cyC6KaW4sC6Q4yikluOkN2wNETniLekxGecu8P0jvIgChSYgmegZCaiQhaCedjCdeTQXVda67~K3JP7z6FhtJ~8pwr-FkC2gJEmbSbAJcgfw5XiFvSKzxI~mPOfmimGprleDxZcqXJ2w9d8UYD8gtrjEZVXR27oiSmSOMAKWb7eOMH1N6~Iz71EU8~HAnFSXBV2tgzM-QXtNE1NvK~M8Y~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 400px;
+}
+.help {
+  width: 100%;
+  height: 855.95px;
+  flex-shrink: 0;
+}
+.zero {
+  display: inline-flex;
+  box-shadow: transparent;
+  text-shadow: transparent;
+  border-style: 1px soliod white;
+
+  opacity: 0.5;
+}
+.users {
+  color: #fff;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128px; /* 128% */
+  letter-spacing: -0.16px;
+  width: 100%;
+  height: 256px;
+  font-family: "Inter", sans-serif;
+}
+.help {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 22.4px; /* 149.333% */
+}
+.token {
+  background: #000;
+  width: 100%;
+  height: 991px;
+  color: #fff;
+}
+.header3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128px; /* 145.455% */
+  letter-spacing: -0.16px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+.spongy {
+  padding-left: 100px;
+}
+.Watch {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 142.857% */
+  letter-spacing: -0.16px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.button3 {
+  border-radius: 9999px;
+  border: 2px solid #06cd98;
+  background: #06cd98;
+  display: inline-flex;
+  padding: 18px 45px;
+  justify-content: center;
+  align-items: center;
+}
+.spanny {
+  color: #06cd98;
+  width: 100%;
+}
+.Watch2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100px; /* 142.857% */
+  letter-spacing: -0.16px;
+  text-align: center;
+}
+.fourthSection {
+  width: 100%;
+}
+.table {
+  display: flex;
+  padding: 95px 64px 96.01px 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  gap: 20px;
+}
+.largeBusiness {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 700px;
+  width: 100%;
+  border-bottom: #2d2b2b 1px solid;
+}
+
+.fun {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 950px;
+  width: 100%;
+  border-bottom: #2d2b2b 1px solid;
+  width: 100%;
+}
+.agency {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 870px;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: #2d2b2b 1px solid;
+  width: 100%;
+}
+.texty {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px; /* 108.475% */
+  letter-spacing: -0.64px;
+  width: 100%;
+}
+h1 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61.6px; /* 93.333% */
+  letter-spacing: -0.56px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.fifthSection {
+  width: 100%;
+  background-color: #000;
+  min-height: 180vh;
+}
+.tiktok_Names {
+  width: 100%;
+  height: 100%;
+}
+.tiktok_fy {
+  display: flex;
+  padding-bottom: 0px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 191px;
+}
+.sells {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; 
+  letter-spacing: -0.64px;
+  width: 100%;
+  padding: 20px;
+}
+.vision {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  width: 100%;
+  padding: 20px;
+}
+.tiktok_celeb {
+  display: inline-flex;
+  padding-right: 0px;
+  align-items: flex-start;
+  gap: 40px;
+  height: 100%;
+}
+.aboutt {
+  color: #25f4ee;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.tiktok_namy {
+  color: #000;
+  width: 100%;
+  padding: 20px;
+  flex-direction: row;
+  display: flex;
+}
+.tiktok_A {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 115.789% */
+  letter-spacing: -0.4px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.image4 {
+  width: 100%;
+  height: 414px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.userName {
+  color: #b485d9;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 27.5px; /* 144.737% */
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.tiktok_followers {
+  /* color: #FFF; */
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 27.5px; /* 152.778% */
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.explore {
+  border-radius: 20px;
+  border: 2px solid #06cd98;
+  background: #06cd98;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  width: 156px;
+  height: 18px;
+  padding: 20px;
+  flex-direction: inherit;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+.sixthSection {
+  display: flex;
+  align-items: flex-start;
+  background-color: #06cd98;
+}
+.green {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 96px */
+  padding: 20px;
+  gap: 70px;
+}
+.yoursProducts {
+  color: #000;
+}
+.run {
+  border-radius: 9999px;
+  background: #000;
+  display: flex;
+  padding: 15px 45px;
+  align-items: flex-start;
+  color: #fff;
+  border: 1px solid #000;
+  gap: 90px;
+  font-family: "Inter", sans-serif;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  flex-shrink: 0;
+  padding-bottom: 50px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+.year {
+  padding-left: 80px;
+}
+.social {
+  padding-right: 30px;
+}
+.terms {
+  padding-right: 400px;
+}
+.phoneHolding {
+  background: no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: flex-end;
+  display: inline-flex;
+}
